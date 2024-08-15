@@ -1,9 +1,9 @@
 class Smartthings < Formula
   desc "Command-line Interface for the SmartThings APIs"
   homepage "https://github.com/SmartThingsCommunity/smartthings-cli"
-  url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/@smartthings/cli@1.8.2/smartthings-macos-x64.tar.gz"
-  version "1.8.2"
-  sha256 "ef2c7487c973f260eb7786be4279965831245d115cd793563b01d8cf001b4633"
+  url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/@smartthings/cli@1.9.0/smartthings-macos-x64.tar.gz"
+  version "1.9.0"
+  sha256 "6bba53b820bbada43f76ee38f8a4ece1e275a56009d5d085e3cf11d8cd0e0e60"
   license "Apache-2.0"
   version_scheme 1
 
