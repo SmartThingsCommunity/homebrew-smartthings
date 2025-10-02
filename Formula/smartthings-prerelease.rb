@@ -4,7 +4,7 @@ class SmartthingsPrerelease < Formula
 
   if Hardware::CPU.arm?
     url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/v2.0.0-prerelease1/smartthings-mac-arm64.tgz"
-    sha256 "sha256:7471e0fa91936ffe71c219067df537bde5379b5666aa9342243a96245119295a"
+    sha256 "7471e0fa91936ffe71c219067df537bde5379b5666aa9342243a96245119295a"
   end
 
   version "2.0.0-prerelease1"
