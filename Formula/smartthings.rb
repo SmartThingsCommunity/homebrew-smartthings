@@ -13,6 +13,7 @@ class Smartthings < Formula
   version "1.10.6"
   license "Apache-2.0"
   version_scheme 1
+  conflicts_with "smartthings-prerelease", because: "provides a different version of the same binary"
 
   livecheck do
     url :stable
