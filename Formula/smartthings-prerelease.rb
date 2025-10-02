@@ -2,8 +2,11 @@ class SmartthingsPrerelease < Formula
   desc "Command-line Interface for the SmartThings APIs, prerelease version"
   homepage "https://github.com/SmartThingsCommunity/smartthings-cli/tree/yargs"
 
-  if Hardware::CPU.arm?
-    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/v2.0.0-prerelease1/smartthings-mac-arm64.tgz"
+if Hardware::CPU.intel?
+    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/@smartthings/cli@1.10.6/smartthings-macos-x64.tar.gz"
+    sha256 "bfea9447964995ff3a1fd1062ce596ecc13a4827e2035b04cef47d803cbd0704"
+  elsif Hardware::CPU.arm?
+      url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/v2.0.0-prerelease1/smartthings-mac-arm64.tgz"
     sha256 "7471e0fa91936ffe71c219067df537bde5379b5666aa9342243a96245119295a"
   end
 
