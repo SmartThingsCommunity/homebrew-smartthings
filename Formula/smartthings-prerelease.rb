@@ -1,4 +1,4 @@
-class Smartthings < Formula
+class SmartthingsPrerelease < Formula
   desc "Command-line Interface for the SmartThings APIs, prerelease version"
   homepage "https://github.com/SmartThingsCommunity/smartthings-cli/tree/yargs"
 
