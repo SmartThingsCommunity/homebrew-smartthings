@@ -7,14 +7,14 @@ class SmartthingsPrerelease < Formula
   end
 
   if Hardware::CPU.intel?
-    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/v2.0.0-prerelease1/smartthings-mac-x64.tgz"
-    sha256 "5106b90b7b4122dfb2bd3ec7bb946faa3fc788e0f10dc9ff37d1fd22e0482694"
+    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/v2.0.0-prerelease2/smartthings-mac-x64.tgz"
+    sha256 "b63b9733ff430d310e1f88927e4b4abda750c2dbc739653294fe7290ad04a04c"
   elsif Hardware::CPU.arm?
-    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/v2.0.0-prerelease1/smartthings-mac-arm64.tgz"
-    sha256 "7471e0fa91936ffe71c219067df537bde5379b5666aa9342243a96245119295a"
+    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/v2.0.0-prerelease2/smartthings-mac-arm64.tgz"
+    sha256 "db86cf118643414f7879f6fb1d9da5476b59ee2dbb4e1f83cb917bf8341b0513"
   end
 
-  version "2.0.0-prerelease1"
+  version "2.0.0-prerelease2"
   license "Apache-2.0"
   version_scheme 1
   conflicts_with "smartthings", because: "provides a different version of the same binary"
