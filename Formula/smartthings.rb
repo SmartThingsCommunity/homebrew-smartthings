@@ -3,11 +3,11 @@ class Smartthings < Formula
   homepage "https://github.com/SmartThingsCommunity/smartthings-cli"
 
   if Hardware::CPU.intel?
-    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/@smartthings/cli@1.10.6/smartthings-macos-x64.tar.gz"
-    sha256 "bfea9447964995ff3a1fd1062ce596ecc13a4827e2035b04cef47d803cbd0704"
+    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%402.0.0/smartthings-mac-x64.tgz"
+    sha256 "cf1ebd86ca01624b5223445ac9aeeb2eb4226618a53f0313168ef5bbf57295cb"
   elsif Hardware::CPU.arm?
-    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/@smartthings/cli@1.10.6/smartthings-macos-arm64.tar.gz"
-    sha256 "d26fc5a33fbcb2ecdf83af66e2b1e63096460bebefa1df95a3b4d58d38a83476"
+    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%402.0.0/smartthings-mac-arm64.tgz"
+    sha256 "d97b53686530f86f6dc3adf9c3429bed18242c0070b31caee526e313a5f4c6fd"
   end
 
   version "1.10.6"
