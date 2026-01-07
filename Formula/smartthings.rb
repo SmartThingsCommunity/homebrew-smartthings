@@ -10,15 +10,15 @@ class Smartthings < Formula
     sha256 "d97b53686530f86f6dc3adf9c3429bed18242c0070b31caee526e313a5f4c6fd"
   end
 
-  version "2.0.0"
-  license "Apache-2.0"
-  version_scheme 1
-  conflicts_with "smartthings-prerelease", because: "provides a different version of the same binary"
-
   livecheck do
     url :stable
     regex(%r{^@smartthings/cli@(\d+\.\d+\.\d+(-beta\.\d+)?)$}i)
   end
+
+  version "2.0.0"
+  license "Apache-2.0"
+  version_scheme 1
+  conflicts_with "smartthings-prerelease", because: "provides a different version of the same binary"
 
   def install
     bin.install "smartthings"
