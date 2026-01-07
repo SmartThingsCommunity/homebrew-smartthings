@@ -17,7 +17,7 @@ class Smartthings < Formula
 
   livecheck do
     url :stable
-    regex(%r{^%40smartthings%2Fcli%40(\d+\.\d+\.\d+(-beta\.\d+)?)$}i)
+    regex(%r{^@smartthings/cli@(\d+\.\d+\.\d+(-beta\.\d+)?)$}i)
   end
 
   def install
