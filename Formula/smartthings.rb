@@ -6,11 +6,11 @@ class Smartthings < Formula
     url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%402.0.2/smartthings-mac-x64.tgz"
     sha256 "9c4cbf4e412000badc3e2b6de45fb3999a1c3570b0fac702c06cae59a0b61ea9"
   elsif Hardware::CPU.arm?
-    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%402.0.2/smartthings-mac-arm64.tgz"
-    sha256 "1fcd21f74dff7e937381855a1db50fd4f81e83c34ba8a3eef88f780d99253ffa"
+    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%402.1.0/smartthings-mac-arm64.tgz"
+    sha256 "a0415461f64071dcaf25dfa32d5798b73161a0cfec91b8030742a39812fced07"
   end
 
-  version "2.0.2"
+  version "2.1.0"
   license "Apache-2.0"
   version_scheme 1
 
