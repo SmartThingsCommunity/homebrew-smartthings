@@ -2,15 +2,12 @@ class Smartthings < Formula
   desc "Command-line Interface for the SmartThings APIs"
   homepage "https://github.com/SmartThingsCommunity/smartthings-cli"
 
-  if Hardware::CPU.intel?
-    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%402.1.2/smartthings-mac-x64.tgz"
-    sha256 "e822ee5f9cd72fd732ecf96dad7d80d2e70cb05c436d1c7fb3b076c934b974bd"
-  elsif Hardware::CPU.arm?
-    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%402.1.2/smartthings-mac-arm64.tgz"
-    sha256 "0cd323a2261cddfae67769639d84f4505018c04e3786915f1ca7399495b3948a"
-  end
+  url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%402.1.3/smartthings-mac-arm64.tgz"
+  sha256 "d36f08ce715b52c214abe2e840516b2a2b9f9bb2fa36e22bc1fa33d410bf8b3c"
 
-  version "2.1.2"
+  depends_on arch: :arm64
+
+  version "2.1.3"
   license "Apache-2.0"
   version_scheme 1
 
