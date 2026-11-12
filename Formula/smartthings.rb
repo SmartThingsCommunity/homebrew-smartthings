@@ -2,8 +2,8 @@ class Smartthings < Formula
   desc "Command-line Interface for the SmartThings APIs"
   homepage "https://github.com/SmartThingsCommunity/smartthings-cli"
 
-  url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%403.0.0/smartthings-mac-arm64.tgz"
-  sha256 "b76c371c602178a97d31ad567e289f30e6919755f0df02cfd5afbcfa503368c4"
+  url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%403.0.1/smartthings-mac-arm64.tgz"
+  sha256 "d52551572fd03f1b41c3e6c9f4f0df43506821801729eb19148f29c0ffeab76e"
 
   depends_on arch: :arm64
 
